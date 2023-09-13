@@ -1,0 +1,4 @@
+while true do
+game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("Prestige"):FireServer()
+wait(0.1)
+end
